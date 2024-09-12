@@ -15,8 +15,12 @@ class HomePageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func riskclicked(_ sender: Any) {
+        self.performSegue(withIdentifier: "goToRiskAssess", sender: self)
+    }
+    
     @IBAction func profileClicked(_ sender: UIButton) {
+        
     }
     /*
     // MARK: - Navigation

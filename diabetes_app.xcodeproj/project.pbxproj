@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75532B962C92D75100DFFC05 /* MakeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */; };
+		75532B982C92F4F600DFFC05 /* RiskAssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75532B972C92F4F600DFFC05 /* RiskAssessmentViewController.swift */; };
 		7560E9A02C88A0BF0007BEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E99F2C88A0BF0007BEFC /* AppDelegate.swift */; };
 		7560E9A22C88A0BF0007BEFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */; };
 		7560E9A42C88A0BF0007BEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E9A32C88A0BF0007BEFC /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeProfileViewController.swift; sourceTree = "<group>"; };
+		75532B972C92F4F600DFFC05 /* RiskAssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskAssessmentViewController.swift; sourceTree = "<group>"; };
 		7560E99C2C88A0BF0007BEFC /* diabetes_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabetes_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7560E99F2C88A0BF0007BEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */,
 				7560E9A32C88A0BF0007BEFC /* ViewController.swift */,
 				7560E9A52C88A0BF0007BEFC /* Main.storyboard */,
+				75532B972C92F4F600DFFC05 /* RiskAssessmentViewController.swift */,
 				75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */,
 				75C2FBB92C92C580003B0D8A /* HomePageViewController.swift */,
 				75C47EC42C8F6F33000323FB /* CreateAccountViewController.swift */,
@@ -169,6 +172,7 @@
 				7560E9A42C88A0BF0007BEFC /* ViewController.swift in Sources */,
 				7560E9A02C88A0BF0007BEFC /* AppDelegate.swift in Sources */,
 				7560E9A22C88A0BF0007BEFC /* SceneDelegate.swift in Sources */,
+				75532B982C92F4F600DFFC05 /* RiskAssessmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
