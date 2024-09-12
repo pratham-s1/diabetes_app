@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75532B962C92D75100DFFC05 /* MakeProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */; };
 		7560E9A02C88A0BF0007BEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E99F2C88A0BF0007BEFC /* AppDelegate.swift */; };
 		7560E9A22C88A0BF0007BEFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */; };
 		7560E9A42C88A0BF0007BEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560E9A32C88A0BF0007BEFC /* ViewController.swift */; };
 		7560E9A72C88A0BF0007BEFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7560E9A62C88A0BF0007BEFC /* Base */; };
 		7560E9A92C88A0C00007BEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7560E9A82C88A0C00007BEFC /* Assets.xcassets */; };
 		7560E9AC2C88A0C00007BEFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7560E9AB2C88A0C00007BEFC /* Base */; };
+		75C2FBBA2C92C580003B0D8A /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C2FBB92C92C580003B0D8A /* HomePageViewController.swift */; };
+		75C47EC32C8F6D36000323FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C47EC22C8F6D36000323FB /* LoginViewController.swift */; };
+		75C47EC52C8F6F33000323FB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C47EC42C8F6F33000323FB /* CreateAccountViewController.swift */; };
+		75C47EC72C8F7234000323FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75C47EC62C8F7234000323FB /* GoogleService-Info.plist */; };
+		75C47ECA2C8F74E4000323FB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 75C47EC92C8F74E4000323FB /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeProfileViewController.swift; sourceTree = "<group>"; };
 		7560E99C2C88A0BF0007BEFC /* diabetes_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diabetes_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7560E99F2C88A0BF0007BEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,10 @@
 		7560E9A82C88A0C00007BEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7560E9AB2C88A0C00007BEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7560E9AD2C88A0C00007BEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75C2FBB92C92C580003B0D8A /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		75C47EC22C8F6D36000323FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		75C47EC42C8F6F33000323FB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		75C47EC62C8F7234000323FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C47ECA2C8F74E4000323FB /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +72,14 @@
 				7560E9A12C88A0BF0007BEFC /* SceneDelegate.swift */,
 				7560E9A32C88A0BF0007BEFC /* ViewController.swift */,
 				7560E9A52C88A0BF0007BEFC /* Main.storyboard */,
+				75532B952C92D75100DFFC05 /* MakeProfileViewController.swift */,
+				75C2FBB92C92C580003B0D8A /* HomePageViewController.swift */,
+				75C47EC42C8F6F33000323FB /* CreateAccountViewController.swift */,
+				75C47EC22C8F6D36000323FB /* LoginViewController.swift */,
 				7560E9A82C88A0C00007BEFC /* Assets.xcassets */,
 				7560E9AA2C88A0C00007BEFC /* LaunchScreen.storyboard */,
 				7560E9AD2C88A0C00007BEFC /* Info.plist */,
+				75C47EC62C8F7234000323FB /* GoogleService-Info.plist */,
 			);
 			path = diabetes_app;
 			sourceTree = "<group>";
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = diabetes_app;
+			packageProductDependencies = (
+				75C47EC92C8F74E4000323FB /* FirebaseAuth */,
+			);
 			productName = diabetes_app;
 			productReference = 7560E99C2C88A0BF0007BEFC /* diabetes_app.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 7560E9932C88A0BF0007BEFC;
+			packageReferences = (
+				75C47EC82C8F74E4000323FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7560E99D2C88A0BF0007BEFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7560E9A92C88A0C00007BEFC /* Assets.xcassets in Resources */,
+				75C47EC72C8F7234000323FB /* GoogleService-Info.plist in Resources */,
 				7560E9AC2C88A0C00007BEFC /* Base in Resources */,
 				7560E9A72C88A0BF0007BEFC /* Base in Resources */,
 			);
@@ -138,6 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C47EC52C8F6F33000323FB /* CreateAccountViewController.swift in Sources */,
+				75532B962C92D75100DFFC05 /* MakeProfileViewController.swift in Sources */,
+				75C47EC32C8F6D36000323FB /* LoginViewController.swift in Sources */,
+				75C2FBBA2C92C580003B0D8A /* HomePageViewController.swift in Sources */,
 				7560E9A42C88A0BF0007BEFC /* ViewController.swift in Sources */,
 				7560E9A02C88A0BF0007BEFC /* AppDelegate.swift in Sources */,
 				7560E9A22C88A0BF0007BEFC /* SceneDelegate.swift in Sources */,
@@ -292,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34F6QPS8R9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = diabetes_app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +336,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "first.diabetes-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,6 +352,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34F6QPS8R9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = diabetes_app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +368,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "first.diabetes-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75C47EC82C8F74E4000323FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75C47EC92C8F74E4000323FB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75C47EC82C8F74E4000323FB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7560E9942C88A0BF0007BEFC /* Project object */;
 }
